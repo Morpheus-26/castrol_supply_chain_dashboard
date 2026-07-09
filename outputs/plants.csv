@@ -1,0 +1,9 @@
+Plant Code,Location,State / Region,"Line Capacity 
+<=1.5 LT (kl / month)","Line Capacity 
+3- 5 LT (kl / month)","Line Capacity 
+7- 20 LT (kl / month)","Line Capacity 
+50 LT (kl / month)","Line Capacity 
+180- 210LT (kl / month)",Production Cost (₹/kl)
+BOM,Mumbai,Maharashtra — West India,1200,900,1000,0,2450,12000
+AHM,Ahmedabad,Gujarat — West India,1600,550,1000,220,2200,12500
+KOL,Kolkata,West Bengal — East India,1200,500,650,0,200,9000
