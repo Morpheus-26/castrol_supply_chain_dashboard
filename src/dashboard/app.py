@@ -163,13 +163,19 @@ if selected_product != "All":
 # HEADER
 # ==========================================================
 
-left,right = st.columns([1,6])
+left, right = st.columns([1.6, 5.4])
 
 logo = ASSETS / "castrol_logo.png"
 
-if logo.exists():
+with left:
 
-    left.image(str(logo), width=120)
+    st.markdown("<div style='padding-top:18px;'></div>", unsafe_allow_html=True)
+
+    if logo.exists():
+        st.image(
+            str(logo),
+            width=180
+        )
 
 with right:
 
